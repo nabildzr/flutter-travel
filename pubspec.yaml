@@ -1,0 +1,35 @@
+name: food_order_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  gap: ^3.0.1
+  google_fonts: ^6.2.1
+  intl: ^0.17.0
+  zoom_tap_animation: ^1.1.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/img.jpeg
+    - assets/image/kaca.png
+    - assets/image/sungai.jpg
+    - assets/image/h1.jpg
+    - assets/image/h2.jpg
+    - assets/image/h3.jpg
+    - assets/image/h4.jpg
+    - assets/image/h5.jpg
+    - assets/image/p2.jpeg
+    - assets/image/p1.jpeg
+    - assets/image/p3.jpg
