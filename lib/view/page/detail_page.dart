@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:food_order_app/model/food.dart';
+import 'package:food_order_app/view/page/booking_page.dart';
 
 class DetailPage extends StatelessWidget {
   final Food item;
@@ -168,7 +169,9 @@ class DetailPage extends StatelessWidget {
                   child: SizedBox(
                     width: double.infinity,
                     child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                          
+                      },
                       style: ElevatedButton.styleFrom(
                         padding: const EdgeInsets.symmetric(vertical: 20),
                         // textStyle: const TextStyle(fontSize: 18, color: Colors.white),

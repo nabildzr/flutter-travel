@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:food_order_app/view/page/login_page.dart';
 import 'package:gap/gap.dart';
 import 'home.dart';
 
@@ -13,20 +14,22 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen>
     with SingleTickerProviderStateMixin {
   @override
+  
   void initState() {
     super.initState();
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.of(context)
-          .pushReplacement(MaterialPageRoute(builder: (_) => const Home()));
+          .pushReplacement(MaterialPageRoute(builder: (_) => const LoginPage()));
     });
   }
 
   @override
+
   void dispose() {
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,
         overlays: SystemUiOverlay.values);
-    super.dispose();
+    super.dispose(); 
   }
 
   @override
@@ -37,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen>
           mainAxisSize: MainAxisSize.min,
           children: [
             Image.asset('assets/image/kaca.png', height: 70, width: 70),
-            Gap(20),
+           const  Gap(20),
             const Text("TravelNabil"),
           ],
         ),

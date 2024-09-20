@@ -1,3 +1,4 @@
+
 class Food {
   final String title;
   final int price;
@@ -13,6 +14,7 @@ class Food {
     required this.detail,
   });
 }
+
 
 final List<Food> itemFood = [
   Food(
@@ -53,7 +55,7 @@ final List<Food> itemFood = [
   Food(
     title: 'My Stf',
     price: 300000,
-    img: 'p3.png',
+    img: 'p3.jpg',
     rating: 9.9,
     detail: 'Aenean quis risus eget est vestibulum finibus ut sed nisl. Quisque tincidunt dui nisi, laoreet pellentesque diam vestibulum ac. Sed vehicula quis justo at viverra. Proin dictum ultrices blandit. Morbi sit amet arcu tellus. Donec volutpat diam felis, sit amet pellentesque neque maximus in. Quisque vitae vehicula erat. Maecenas accumsan in purus sit amet dictum. Praesent molestie ultrices finibus. Aliquam nec diam nec ipsum euismod euismod sit amet ac nisl. Donec semper arcu eu lorem vestibulum varius. Quisque tempus elit mauris, quis tincidunt magna mattis id. Praesent vel ipsum vestibulum, bibendum turpis at, porttitor velit. Cras pretium magna id libero venenatis elementum. Nullam ultrices malesuada placerat. In placerat lorem nec magna ultricies pellentesque.'
   ),
