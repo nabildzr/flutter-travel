@@ -24,12 +24,19 @@ flutter:
   assets:
     - assets/image/img.jpeg
     - assets/image/kaca.png
+    - assets/image/images.jpeg
     - assets/image/sungai.jpg
+    - assets/image/cloudy.png
+    - assets/image/imagez.png
+    - assets/image/icon.png
     - assets/image/h1.jpg
     - assets/image/h2.jpg
     - assets/image/h3.jpg
     - assets/image/h4.jpg
     - assets/image/h5.jpg
+    - assets/image/wait.png
     - assets/image/p2.jpeg
     - assets/image/p1.jpeg
     - assets/image/p3.jpg
+    - assets/image/location.png
+    - assets/image/google.png
