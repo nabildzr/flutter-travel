@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_order_app/view/page/sign_in.dart';
 import 'package:gap/gap.dart';
 
 class LoginPage extends StatelessWidget {
@@ -92,7 +93,10 @@ class LoginPage extends StatelessWidget {
                       child: ElevatedButton(
                         
                           onPressed: () {
-                            Navigator.pushNamed(context, '/sign-in');
+                            Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => SignInPage()));
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.transparent,
